@@ -1,0 +1,150 @@
+body
+{
+    background: url("../Image/fond5.png");
+}
+h2
+{
+    font-family: "Brush Script MT", cursive;
+}
+
+h1{
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+}
+
+.cours{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-bottom: 25px;
+    background-color: gray;
+}
+
+.cours{
+    text-align: center;
+}
+
+.cours a{
+    text-decoration: none;
+}
+
+.description{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.info{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.buttons{
+    margin: 20px;
+}
+
+.buttons a{
+    padding: 7.5px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;  
+    background-color: aquamarine;
+}
+
+.buttons a:hover{
+    background-color: royalblue;
+}
+
+#addCours{
+    padding: 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+fieldset{
+    text-align: center;
+    border: 2px solid black;
+}
+
+legend{
+    display: block;
+    margin: auto;
+}
+
+input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 20%;
+    resize: none;
+}
+
+.suggestion, .listedCourses
+{
+    width: 400px;
+    transition: all ease-in-out 1s;
+}
+
+
+.allCours
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+.allSuggestion,#titleSuggestion
+{
+    display: none;
+}
+
+.suggestion:hover
+{
+    width: 500px;
+    transition: all ease-in-out 1s;
+    
+}
+
+#suggestion
+{
+    border-radius: 15px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    margin-left: 5px;
+    padding: 3px 7px;
+}
+
+#suggestion:hover
+{
+    
+    background-color: aqua;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.buttons
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+input, textarea
+{
+    border-radius: 25px;
+    text-align: center;
+}

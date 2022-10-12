@@ -1,0 +1,76 @@
+body
+{
+    background: url("../Image/fond5.png");
+}
+
+h1
+{
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+}
+h2, legend
+{
+    font-family: "Brush Script MT", cursive;
+}
+
+a
+{
+    text-decoration: none;
+}
+.errors
+{
+    background-color: red;
+    text-align: center;
+    color: whitesmoke;
+    padding: 2px 0;
+    padding-left: 15px;
+    border-radius: 15px;
+    width: 400px; 
+    -webkit-box-shadow: -8px 10px 16px 5px #000000; 
+    box-shadow: -8px 10px 16px -1px #000000; 
+}
+
+input[type=text], input[type= date], input[type=file], input[type=password], input[type=email]
+{
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+input[type=submit], input[type=reset]
+{
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+fieldset
+{
+    border-radius: 25px;
+}
+legend
+{
+    margin: 0 25%;
+    font-size: 25px;
+}
+
+.form
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.submit
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
